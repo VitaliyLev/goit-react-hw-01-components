@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import { FriendCard } from './friendCard.jsx';
-
 import { Friends } from './FriendList.styled';
 
 export function FriendList({ friends }) {

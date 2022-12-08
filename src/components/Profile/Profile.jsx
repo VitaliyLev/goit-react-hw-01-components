@@ -1,4 +1,4 @@
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 import {
   ProfileCard,
   UserImg,
@@ -9,7 +9,7 @@ import {
   List,
   TextSpan,
   NumberSpan,
-} from "./Profile.styled.jsx";
+} from './Profile.styled.jsx';
 
 export function Profile(props) {
   const { avatar, username, tag, location, stats } = props;
